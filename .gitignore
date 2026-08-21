@@ -1,3 +1,5 @@
+*.ulg
+
 # MATLAB autosave files
 *.asv
 *.autosave
