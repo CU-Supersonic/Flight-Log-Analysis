@@ -1,1 +1,26 @@
+# MATLAB autosave files
+*.asv
+*.autosave
 
+# Simulink build cache / generated artifacts
+slprj/
+*.slxc
+codegen/
+
+# Simulink cache/log files
+*.slxc
+sccprj/
+
+# MATLAB compiled/mex files (platform-specific, regenerate from source)
+*.mex*
+
+# MEX build logs
+*.log
+
+# MATLAB temp/backup files
+*.m~
+*.asv~
+
+# OS-level junk (harmless but noisy in a Windows-based team)
+Thumbs.db
+Desktop.ini
