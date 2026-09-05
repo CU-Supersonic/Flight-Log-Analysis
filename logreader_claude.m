@@ -12,7 +12,7 @@ clc; clear; close all
 %% --- Load the log file ---
 % ulogreader is a MATLAB function (Aerospace Toolbox / UAV Toolbox) that
 % parses PX4 .ulg binary log files into a MATLAB object.
-ulg = ulogreader('log_137_2026-8-19-17-01-38.ulg');
+ulg = ulogreader('log_142_2026-8-19-17-19-08.ulg');
 
 % Extract all topics (message streams) and their data from the log as a
 % table, where each row corresponds to one topic/instance and its
