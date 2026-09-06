@@ -13,6 +13,7 @@ clc; clear; close all
 % parses PX4 .ulg binary log files into a MATLAB object.
 ulg = ulogreader('log_231_2026-9-4-19-20-12.ulg');
 
+
 % Extract all topics (message streams) and their data from the log as a
 % table, where each row corresponds to one topic/instance and its
 % associated timetable of messages.
